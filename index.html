@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alou Tapisserie</title>
+    <link href=index.css rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+
+
+    
+    <header class="bg-dark text-gold">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Alou Tapisserie</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Produits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">À propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <section id="home" class="hero-section d-flex align-items-center justify-content-center text-center" style="background-image: url('sofa-background.jpg');"> 
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="display-4 text-gold">Bienvenue chez Alou Tapisserie</h1>
+            <p class="lead text-gold">Des meubles personnalisés pour votre confort.</p>
+            <a href="#products" class="btn btn-gold pulse">Découvrir nos Produits</a>
+        </div>
+        
+        <div class="scrolling-image">
+            <img src="image-rotating-sofa-jpg.JPG"  alt="Sofa Decoration" class="img-fluid">
+            <img src="sallearmchair-product.jpg.JPG" alt="Sofa Decoration" class="img-fluid">
+            <img src="image-rotating-sofa-jpg.JPG" alt="Sofa Decoration" class="img-fluid">
+        </div>
+    </section>
+
+    
+    <section id="products" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center text-gold mb-4">Nos Produits</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-couch fa-3x text-gold mb-3"></i>
+                        <h5 class="product-title text-gold">Canapés</h5>
+                        <p class="product-description text-light">Des canapés sur mesure qui s'adaptent à toutes vos envies.</p>
+                        <img src="imagesofa-product.jpg.JPG" alt="Canapé personnalisé" class="img-fluid"> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-chair fa-3x text-gold mb-3"></i>
+                        <h5 class="product-title text-gold">Chaises</h5>
+                        <p class="product-description text-light">Des chaises élégantes qui ajoutent une touche de sophistication.</p>
+                        <img src="chaise-product.jpg.jpg" alt="Chaise personnalisée" class="img-fluid"> 
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <i class="fas fa-armchair fa-3x text-gold mb-3"></i>
+                        <h5 class="product-title text-gold">Fauteuils</h5>
+                        <p class="product-description text-light">Des fauteuils confortables pour vos moments de détente.</p>
+                        <img src="sallearmchair-product.jpg.JPG" alt="Fauteuil personnalisé" class="img-fluid"> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about" class="parallax-section">
+        <div class="container text-center">
+            <h2 class="text-gold mb-4">À Propos de Nous</h2>
+            <p class="text-light">Chez Alou Tapisserie, nous sommes passionnés par la création de meubles personnalisés qui allient confort et élégance. Chaque pièce est fabriquée avec soin pour répondre aux besoins uniques de notre clientèle.</p>
+            <p>
+                Depuis 2018, Aliou Tapisserie crée des canapés sur-mesure, conçus pour s'adapter à vos envies et à votre intérieur.<br>
+                Notre passion pour le beau et le bien-fait, associée à un savoir-faire artisanal, nous permet de réaliser des pièces uniques, alliant confort et élégance.<br>
+                </p>
+            <img src="siabout-background.jpg" alt="Décoration intérieur" class="img-fluid"> 
+        </div>
+    </section>
+
+    <div class="container">
+        <h2 class="text-center text-gold mb-4">Contactez-Nous</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label text-gold">Nom</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label text-gold">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label text-gold">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+             <a class="btn" href="#">envoyer <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEXElEQVR4nO2Zf2hbVRTHnyIq/iGi+EdcmY45xyYomwVhK4yKKOoGKlYQBAVlyFR0g7VbuzZ267Z2Lrn3beBsR2lRhOEQN5zi5majdWvuXVTsT9a166izbtPSaZvk3Ex35L7kxSTLS97L3suL2C98/0hv0nzOuef+eCeKMqtZ/T+kBvFWlcdWUw5tyn9JajD2EGHQShnMUC6QsthrSqmL/Ii3yWwTDj9p0ElDRI4ppSgv4vU0FKvQss0hokPv7Ini+i8u6QF0KKUmf2jGQxjUECZG0rMtcNPRaVyhnsEdJ6Laa//J2HKlVLLt59FHKRcfEwaxTHDpV/dfxHmbBrD2yJ/aa8LEECJe5yq4GgyXJbJ9Nhs05ULL9iO7z6Knuhdf3nch+XfCYJ0r0N5+vJEyUUW4+Ixw+MsInHKBGw//gYs2D2nwlbvG/h1jINQf8M6ighMOCykXzZSLC7mgacIy22Ub+zT4xZuHsOV4JDWAfUWB7ujCm2W2KRNfEQZXzIC3HI9o2Zbg0mUb+nD9l/quE7dcL46C+5m4P55tmDQDrbtGlkxjvGR0v/jR+bT3EC7OyEXv2NFOOISsQCd2FA20bEO8ZHRX+Ee1sfT3Qp2zR7tFb+8OYwUZTQP3VPfife8M4vbvUuo+fnBd9p0Iz3HwaLfmdZ9P4QLv4FXwc2r6Uk7bFDNx0PajvRDLsnjhw1810Ex4T3WvNpbtc34Oq2w92gvxtu4ILvONZAX3VPfi8ix1n8j+hLcLb7AETzjskXVnB7j02kNTuKBhwBD+3voBbPo2s+6TbrKcfZWLJYUuzrSpZ4BVnb/gXTXZwaXl2NpDUwYlB1fUUHS+5QASs/AsZfB3ofBbAmEs33HaEFz3c50TudbMkYLgk0EwqCsE/o0Dk9oNMh/8w++OaLNEDf6PysTz1xSAvLYSBh+YBfcFAZ9uP5ezZHTPrx/Epm/Cxtnn8Ls6jDcpdtwiCYNAPvjGrjCWN+cvGb3u3zw4mS8hPsUu7WZ4R67tdM2nk3iPiZLR/Uz7ubyzqQZhsWKnSA8sogwupX7JziDgyrZx0+DSS5tPa6WWC54w6LYVPhkEiz6unw8Nx6bxwa2nLMHPqxvAxsBM/vXExEuOBKAFweFt+Zx6d22/JXhZ968fyFv3KGe5NYS3KE7qidaxLQsbBi9bCWDV3p9NbsPwnlIMVe0dv72SjgYy7/LZvGTbMPp6ctc91U/vkFiqFFMr2ydWlLcMnzeCl6Xm/XraXPYZfK+4JaMgVn/ym/lTnLnY75QzkVlOT74/buEKAu73Oyt3jQV0+Ae2ntL6mRYC6FDcllzYcneaW9uP9cdM1r2+eE+WSL/zqbbxplf2X7QET0qh35mqxC8opp/oiFv9zlxSg9HHMu9OBltn8fudVjp1sqOWJ4Di9Duv7Spu/DzheL/TDsknK8Kh86rad6rf6ZQoh7dSGwW29zuLIdntIAzCtvU73ZDWGOawx5Uvn9WslKz6B8fZ1UdvyzvUAAAAAElFTkSuQmCC"></a>
+            </form>
+        </div>
+        <footer class="bg-dark text-gold text-center py-4">
+            <p class="mb-2">Suivez-nous sur:</p>
+            
+            <div class="social-icons mb-3">
+                <a href="https://www.facebook.com" class="text-gold me-3" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/alou__jallow?igsh=eXFhNzl0Y3BqeDFp&utm_source=qr" class="text-gold me-3" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com" class="text-gold me-3" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                <a href="https://www.tiktok.com" class="text-gold me-3" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/221776117737" class="text-gold" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p>Email: <a href="mailto:aloutapisserie@gmail.com" class="text-gold">aloutapisserie@gmail.com</a></p>
+            
+            <p>© 2024 Alou Tapisserie. Tous droits réservés.</p>
+            
+            <p>Téléphone: <a href="tel:+221776117737" class="text-gold">776117737</a> | Localisation: Dakar, Keur Massar</p>
+        </footer>
+        </html>
